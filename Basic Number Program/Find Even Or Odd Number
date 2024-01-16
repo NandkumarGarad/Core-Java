@@ -1,0 +1,19 @@
+Ans  =>  1   useing if.....else
+
+int num = 34;
+if ( num % 2 == 0 ) {
+System.out.println("It is Even Number.");
+}else{
+System.out.println("It is Odd Number.");
+}
+
+
+
+Ans  => 2  useing  conditional operator
+
+public static String isEvenOrOdd( int n ){
+  retrun ( n % 2 == 0 ) ? "It is Even Number." : "It is Odd Number.";
+}
+
+
+
